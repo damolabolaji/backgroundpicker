@@ -9,31 +9,26 @@
 
 /******************************************
 /* LAYOUT
-/****
-***************************************/
-div{
-  background: blue;
-}
-
-body{
-  position:relative;
-}
-
+/*******************************************/
 h1, h2{
   text-align: center;
 }
 img{
   display: block;
-  height: 300px;
+  max-width: 50%;
   margin: 0 auto;
+  position: relative;
 }
+
+
 ul{
   width: 100px;
-  height: 200px;
   border: 3px solid black;
+  position: fixed;
+  top: 20px;
+  left:20px;
   list-style: none;
-  position: absolute;
-  padding: 20px;
+  padding: 0;
 }
 li{
   width: 94px;
@@ -43,12 +38,18 @@ li{
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
-#purple{
-  background: rgba(241,63,247,1);
+#darkcyan{
+  background: #3d7e84;
 }
-#green{
-  background: rgba(0,253,81,1);
+#beige{
+  background: #d3d2b7;
 }
 #blue{
-  background: rgba(0,254,255);
+  background: #8b9ce4;
+}
+#blue{
+  background: #8b9ce4;
+}
+#mustard{
+  background: #f4d559;
 }
