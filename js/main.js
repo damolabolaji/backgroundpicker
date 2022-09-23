@@ -11,7 +11,9 @@ function colorDarkCyan(){
 
 function colorBeige(){
   document.querySelector('body').style.backgroundColor = 'rgb(211, 210, 183)'
-  
+  if (document.querySelector('body').style.color = 'white'){
+    document.querySelector('body').style.color = 'black'
+  }
 }
 
 function colorBlue(){
@@ -21,7 +23,9 @@ function colorBlue(){
 
 function colorGray(){
   document.querySelector('body').style.backgroundColor = 'lightgray'
-  
+  if (document.querySelector('body').style.color = 'white'){
+    document.querySelector('body').style.color = 'black'
+  }
 }
 
 function colorMustard(){
