@@ -1,4 +1,3 @@
-
 document.getElementById('darkcyan').onclick = colorDarkCyan
 document.getElementById('beige').onclick = colorBeige
 document.getElementById('blue').onclick = colorBlue
@@ -6,29 +5,26 @@ document.getElementById('gray').onclick = colorGray
 document.getElementById('mustard').onclick = colorMustard
   
 function colorDarkCyan(){
-  document.querySelector('body').style.backgroundColor = #3d7e84
-  document.querySelector('body').style.color = white
+  document.querySelector('body').style.backgroundColor = 'rgb(61, 126, 132)'
+  document.querySelector('body').style.color = 'white'
 }
 
 function colorBeige(){
-  document.querySelector('body').style,backgroundColor = #d3d2b7
-  document.querySelector('body').style.color = white
+  document.querySelector('body').style.backgroundColor = 'rgb(211, 210, 183)'
+  
 }
 
 function colorBlue(){
-  document.querySelector('body').style,backgroundColor =  #8b9ce4
-  document.querySelector('body').style.color = white
+  document.querySelector('body').style.backgroundColor =  'rgb(139, 156, 228)'
+  document.querySelector('body').style.color = 'white'
 }
 
 function colorGray(){
-  document.querySelector('body').style,backgroundColor = lightgray
-  document.querySelector('body').style.color = white
+  document.querySelector('body').style.backgroundColor = 'lightgray'
+  
 }
 
 function colorMustard(){
-  document.querySelector('body').style,backgroundColor = #f4d559
-  document.querySelector('body').style.color = white
+  document.querySelector('body').style.backgroundColor = 'rgb(244, 213, 89)'
+  document.querySelector('body').style.color = 'white'
 }
-
-
-
